@@ -1,11 +1,28 @@
-head{ 
-    background-color:darkolivegreen;
+header{
+    background-color: rgb(8, 235, 0);
+    color: rgba(66, 235, 0, 0.705);
+    padding: 20px;
+    text-align: right;
 }
-body{color: darkolivegreen;
+header img{
+       float: left;
+       margin-right: 20px;
+       width: 100px;
+       height: auto;
 }
-h1{color: darkolivegreen;
+nav ul{
+      list-style: none;
+      padding: 0px;
 }
-h1{color: darkolivegreen;
+nav ul li{
+      display: inline;
+      margin-right: 15px;
+}
+body{color: rgb(15, 245, 7);
+}
+h1{color: rgb(41, 243, 1);
+}
+h1{color: rgb(12, 247, 44);
 }
 h1{color: darkolivegreen;
 }
@@ -21,9 +38,8 @@ button{
 button:hover{
           background-color: green;
           color: darkkhaki;
-          border: 2px solid white;
+          border: 2px solid rgb(255, 255, 255);
 }
-
 
 
 
